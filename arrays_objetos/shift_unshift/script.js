@@ -3,8 +3,8 @@
 let frutas = ["Banana", "Maçã", "Pera", "Uva", "Melancia"];
 
 console.log(frutas);
-let elementoRemovido = frutas.shift();
-console.log(elementoRemovido)
+let primeiraFruta = frutas.shift();
+console.log(primeiraFruta)
 console.log(frutas);
 
 frutas.unshift("Laranja");
