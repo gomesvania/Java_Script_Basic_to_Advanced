@@ -56,3 +56,10 @@ const teste = () => console.log('teste'); // => console.log('teste');
 console.log(sum1(5, 5)); // => console.log(10);
 console.log(sum(5, 5)); // => console.log(10);
 console.log(arrowSum(5, 5)); // => console.log(10);
+
+// 3 - Filter
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+console.log(numbers); // => console.log([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
+
+const filter = numbers.filter((number) => number > 5);
+console.log(filter); // => console.log([6, 7, 8, 9, 10]);
